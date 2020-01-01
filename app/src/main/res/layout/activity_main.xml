@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCamera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGallery"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttonGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Gallery"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSegmentation"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCamera" />
+
+    <Button
+        android:id="@+id/buttonSegmentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segment"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCompression"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGallery"
+/>
+
+    <Button
+        android:id="@+id/buttonCompression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compres"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSegmentation"/>
+
+</android.support.constraint.ConstraintLayout>

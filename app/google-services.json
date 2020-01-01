@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "43701884599",
+    "firebase_url": "https://simpletestcloud.firebaseio.com",
+    "project_id": "simpletestcloud",
+    "storage_bucket": "simpletestcloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43701884599:android:5e89f900b539cebf865f32",
+        "android_client_info": {
+          "package_name": "com.guerkahn.simpletest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43701884599-elc2ht5aa7s6ueagaoi1d45e3fkk8755.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guerkahn.simpletest",
+            "certificate_hash": "8636d6a5f7bc2a0c0e32e1784964619bfb901967"
+          }
+        },
+        {
+          "client_id": "43701884599-umpid31017aano5j25v2r36sjesuk998.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGL9FdE3MFMdWi1Dm8YU96pteGE2mrG4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43701884599-umpid31017aano5j25v2r36sjesuk998.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
